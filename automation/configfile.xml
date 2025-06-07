@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+  <data path="/hana/media">
+    <parameter key="components">server</parameter>
+    <parameter key="hostname">hana-host</parameter>
+    <parameter key="sapadm_password">SapAdmin123</parameter>
+    <parameter key="root_user">root</parameter>
+    <parameter key="root_password">RootPass123</parameter>
+
+    <parameter key="system_usage">production</parameter> <!-- development/test/production -->
+    <parameter key="number_of_instances">1</parameter>
+
+    <parameter key="system_id">HDB</parameter> <!-- HANA System ID (3 uppercase letters) -->
+    <parameter key="instance_number">00</parameter> <!-- Instance number (2 digits) -->
+    <parameter key="db_mode">single_container</parameter> <!-- Or 'multiple_containers' for MDC -->
+
+    <parameter key="password">HanaMaster123</parameter> <!-- Master password for all users -->
+
+    <parameter key="sapinst_group">sapsys</parameter>
+    <parameter key="sidadm_password">SidAdmin123</parameter>
+  </data>
+</Config>
